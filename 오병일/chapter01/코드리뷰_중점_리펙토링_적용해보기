@@ -18,7 +18,6 @@
 
         boolean exists = Boolean.TRUE.equals(redisTemplate.hasKey("traffic:info"));
         boolean exists = Boolean.TRUE.equals(redisTemplate.hasKey(TRAFFIC_REDIS_KEY));
-Member
 
 ```
 
